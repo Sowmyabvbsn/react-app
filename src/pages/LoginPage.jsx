@@ -42,7 +42,7 @@ function LoginPage({ onLogin }) {
             onClick={handleLogin}
             className="w-full"
           >
-            Login/Signup
+            Login
           </Button>
         </div>
       </Card>
