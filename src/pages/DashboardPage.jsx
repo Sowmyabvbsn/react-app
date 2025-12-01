@@ -5,14 +5,10 @@ import { LogOut } from 'lucide-react';
 
 function DashboardPage({ onLogout }) {
     return (
-        <div className="min-h-screen w-full bg-gray-50">
-            <div className="border-2 border-black rounded-3xl m-8 p-8 bg-white min-h-[calc(100vh-4rem)]">
+        <div className="m-auto">
+            <div>
                 <div className="flex w-full mb-8 gap-4 items-start">
-
                     <h1 className="text-2xl font-bold whitespace-nowrap">CitizenPortal</h1>
-
-
-                    
                     <div className="flex flex-col flex-1 whitespace-nowrap text-start">
                         Welcome xxxx
                         <div style={{ height: '1px', backgroundColor: 'black' }} />
